@@ -43,4 +43,13 @@ public class CricketCoach implements Coach {
         return fortuneService.getFortune();
     }
 
+    // add in init method
+    public void doMyStartUpStuff() {
+        System.out.println("TrackCoach: inside method doMyStartUpStuff");
+    }
+
+    //add a destroy method
+    public void doMyCleanUpStuff() {
+        System.out.println("TrackCoach: inside method doMyCleanUpStuff");
+    }
 }
